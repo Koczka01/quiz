@@ -10,7 +10,7 @@ async function start() {
     file = await fetch("quiz.json")
     questions = await file.json()
     kerdes = document.getElementById('kerdes');
-    kerdes.style.display = "flex";
+    kerdes.style.display = "block";
     elso.style.display = "inline";
     masodik.style.display = "inline";
     harmadik.style.display = "inline";
@@ -30,7 +30,7 @@ color = [elso, masodik, harmadik, negyedik];
 
 function first() {
     hatodik.style.display = "none";
-    kerdes.style.display = "flex";
+    kerdes.style.display = "block";
     elso.style.display = "inline";
     masodik.style.display = "inline";
     harmadik.style.display = "inline";
