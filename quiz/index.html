@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz</title>
+</head>
+
+<body>
+    <div id="felulet">
+        <h1>World's best quiz</h1>
+        <h3 id="results"></h3>
+        <h2 id="kerdes"></h2>
+        <button id="elso" onclick="answercheck(1)">Válasz 1</button><br>
+        <button id="masodik" onclick="answercheck(2)">Válasz 2</button><br>
+        <button id="harmadik" onclick="answercheck(3)">Válasz 3</button><br>
+        <button id="negyedik" onclick="answercheck(4)">Válasz 4</button><br>
+        <button id="otodik" onclick="start()">Kitöltés megkezdése</button><br>
+        <button id="hatodik" onclick="first()">Eredmények</button><br>
+        <button id="kovetkezo" onclick="questionout(1)"">Következő</button>
+        <button id="vissza" onclick="questionout(-1)">Vissza</button>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
